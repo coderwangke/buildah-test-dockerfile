@@ -1,0 +1,1 @@
+podman run --rm -ti --cap-add=SYS_ADMIN  -v /tmp/containers/:/var/lib/containers/:rw,Z -e HUB_USER='wangke007' -e HUB_TOKEN='wang251610' -e GIT_CLONE_URL='https://github.com/coderwangke/buildah-test-dockerfile.git' -e IMAGE='wangke007/buildah-test' -e DOCKERFILE_PATH='Dockerfile' localhost/wangke007/buildah-builder:v0.1
