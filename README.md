@@ -24,6 +24,11 @@
 
 
 
+
+
+
+
+
 #### 出参
 
 - `IMAGE` 构建的镜像地址, 不包含tag名称, 例如: `hub.cloud.tencent.com/fox/my_awesome_image`
