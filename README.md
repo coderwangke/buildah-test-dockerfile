@@ -22,7 +22,6 @@
 - `NO_CACHE` 非必填，默认值是false, 如果为true 将开启`--no-cache`禁用 docker 构建缓存标志
 - `BUILD_ARGS` 非必填，传递给`--build-arg`的构建参数, 必须是一个有效的json字符串, 如`{"HTTP_PROXY":"http://10.20.30.2:1234","TIMEOUT":"10"}`, 将生成构建参数`--build-arg HTTP_PROXY=http://10.20.30.2:1234 --build-arg TIMEOUT=1
 
-
 #### 出参
 
 - `IMAGE` 构建的镜像地址, 不包含tag名称, 例如: `hub.cloud.tencent.com/fox/my_awesome_image`
